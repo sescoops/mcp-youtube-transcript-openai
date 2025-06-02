@@ -1,6 +1,7 @@
 // server.js
 import express from 'express';
-import { getTranscript } from 'youtube-transcript';
+import pkg from 'youtube-transcript';
+const { getTranscript } = pkg;
 
 const app = express();
 app.use(express.json());
