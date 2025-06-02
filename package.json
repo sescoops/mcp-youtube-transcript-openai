@@ -1,13 +1,14 @@
 {
   "name": "mcp-youtube-transcript-openai",
   "version": "1.0.0",
-  "type": "module",         
+  "type": "module",
   "main": "server.js",
   "scripts": {
+    "build": "echo \"No build step needed\"",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "youtube-transcript": "^1.2.1"  
+    "youtube-transcript": "^1.2.1"
   }
 }
