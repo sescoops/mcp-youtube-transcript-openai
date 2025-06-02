@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "YouTube Transcript",
+  "name_for_model": "youtube_transcript",
+  "description_for_human": "Extract YouTube video transcripts.",
+  "description_for_model": "Use this tool to fetch a transcript from a YouTube video URL or ID.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://youtube-transcript-mcp/openapi.yaml"
+  },
+  "logo_url": "https://youtube-transcript-mcp/logo.png",
+  "contact_email": "you@example.com",
+  "legal_info_url": "https://youtube-transcript-mcp/legal"
+}
