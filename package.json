@@ -1,13 +1,13 @@
 {
   "name": "mcp-youtube-transcript-openai",
   "version": "1.0.0",
-  "type": "module",          // ← Add this line so Node uses ES modules
+  "type": "module",         
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "youtube-transcript": "^1.2.1"   // ← Change to a valid version
+    "youtube-transcript": "^1.2.1"  
   }
 }
